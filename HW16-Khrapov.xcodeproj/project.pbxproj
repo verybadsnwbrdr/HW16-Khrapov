@@ -14,6 +14,7 @@
 		3A9507F528F45C6E00DE3FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9507F428F45C6E00DE3FB4 /* Assets.xcassets */; };
 		3A9507F828F45C6E00DE3FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9507F628F45C6E00DE3FB4 /* LaunchScreen.storyboard */; };
 		3A95080728F45E0F00DE3FB4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3A95080628F45E0F00DE3FB4 /* SnapKit */; };
+		3A95080A28F4657600DE3FB4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A95080928F4657600DE3FB4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		3A9507F428F45C6E00DE3FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9507F728F45C6E00DE3FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A9507F928F45C6E00DE3FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A95080928F4657600DE3FB4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		3A95080128F45D8000DE3FB4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3A95080828F4656000DE3FB4 /* Extensions */,
 				3A95080428F45DA800DE3FB4 /* Scenes */,
 				3A95080328F45DA100DE3FB4 /* App */,
 			);
@@ -115,6 +118,14 @@
 				3A9507EF28F45C6800DE3FB4 /* ViewController.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3A95080828F4656000DE3FB4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A95080928F4657600DE3FB4 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 				3A9507F028F45C6800DE3FB4 /* ViewController.swift in Sources */,
 				3A9507EC28F45C6800DE3FB4 /* AppDelegate.swift in Sources */,
 				3A9507EE28F45C6800DE3FB4 /* SceneDelegate.swift in Sources */,
+				3A95080A28F4657600DE3FB4 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
